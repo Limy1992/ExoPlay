@@ -10,9 +10,9 @@ import com.google.android.exoplayer2.SimpleExoPlayer
  * Author:lmy
  */
 interface ILMYExoPlay {
-    //    var mOnAudioPlayListener: OnAudioPlayListener?
-    fun getExoPlay(): SimpleExoPlayer
 
+    fun getExoPlay(): SimpleExoPlayer
+    
     /**设置播放源*/
     fun setPlayUrl(playUrl: String)
 
